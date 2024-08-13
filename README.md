@@ -9,7 +9,7 @@
 - test 데이터에는 'id'컬럼이 추가적으로 존재하고, '답안' 컬럼은 존재하지 않음. id 별 답안을 예측하여 제출해야 함
 - 답안은 선택지의 인덱스로, 0부터 3사이의 값을 가짐
 
-![image](https://github.com/user-attachments/assets/14b7a9d5-8b8d-46ef-aa6d-500b53192f19)
+![image](https://github.com/user-attachments/assets/7c8499fe-3c92-49e4-930b-6d39cdec1206)
 
 ## 평가지표
 - Accuracy score : 전체 질문 중 정답을 맞힌 질문의 비율
