@@ -1,1 +1,1 @@
-# YEARDREAM_NLP_PROJECT
+# 한국어 일반 상식 객관식 문제 풀이
