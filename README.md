@@ -16,13 +16,13 @@
 
 ## Directory Structure 
 ├── data/
-│   ├── train_data.csv
-│   └── test_data.csv
-│
+   ├── train_data.csv
+   └── test_data.csv
+
 ├── configs/
-│   └── config.yaml
-│
-├── utils.py
+   └── config.yaml
+
+|── utils.py
 ├── train.py
 ├── inference.py
 ├── run.sh
