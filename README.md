@@ -14,19 +14,21 @@
 ## 평가지표
 - Accuracy score : 전체 질문 중 정답을 맞힌 질문의 비율
 
-## Directory Structure 
+## Directory Structure
+```
 ├── data/
-   ├── train_data.csv
-   └── test_data.csv
-
+│   ├── train_data.csv
+│   └── test_data.csv
+│
 ├── configs/
-   └── config.yaml
-
-|── utils.py
+│   └── config.yaml
+│
+├── utils.py
 ├── train.py
 ├── inference.py
 ├── run.sh
 └── sample_submission.csv
+```
 
 ## Description
 - `data/`: 학습데이터/평가데이터 csv 파일 
