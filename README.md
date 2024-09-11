@@ -39,6 +39,21 @@
 - `run.sh`: LLM 모델 config 값 설정하여 train.py 실행하는 shell script
 - `sample_submission.csv`: 제출 csv 파일 예시
 
+## inference.py
+- prompt tuning 추가
+
+  `prompt_ex2`
+    
+     "For example, if the choices are ['a, a', 'a,b', 'b,a', 'b,b'] and the correct answer is 'b,a', the correct output should be 2."
+    
+  `prompt_ex3`
+    
+    """When the sentence is long, it is divided using "", or ', and each part is labeled from 0 to 3. Provide the correct number that represents the correct part."""
+
+## final_submission.ipynb
+- submission의 answer column 후처리
+- answer가 0, 1, 2, 3 중 하나가 아닐 경우, 생성된 답변을 토대로 0, 1, 2, 3을 출력할 수 있도록 조정 
+
 ## Getting Started
 - 도커 컨테이너 접속 : 
     - 로컬 호스트에서 로컬 포트를 원격 호스트로 포워딩 
